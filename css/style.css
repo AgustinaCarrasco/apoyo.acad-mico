@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(204,125,227);
+    background: linear-gradient(90deg, rgba(204,125,227,0.18484479973630075) 0%, rgba(255,0,99,0.5826039033777574) 100%);
+}
+header{
+    padding:20px;
+    font-size:18px;
+    border-bottom:1px solid #FF0060;
+}
+.h1{
+    font-size:25px;
+    text-decoration: none;
+    color: #FF0060;
+    font-weight: bold;
+}
+.offcanvas-header{
+    background-color:#f3cfe5;
+    color: #b80248;
+}
+.offcanvas-body{
+    background-color:#f3cfe5;
+}
+.h3{
+    text-decoration: none;
+    color: #FF0060;
+    font-size:20px;
+}
+.h3:hover{
+    text-decoration:underline;
+    color: #b80248;
+    font-size:20px;
+}
+
+footer{
+    padding:20px;
+    font-size:18px;
+    border-top:1px solid #FF0060;
+}
+.banner{
+    width:100%;
+    opacity:70%;
+}
+.bannertexto{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fcf9fa;
+    font-weight: bold;
+    font-size:50px;
+    animation: aparicion 1.5s forwards;
+    opacity:0;
+}
+@keyframes aparicion {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+.Agustina{
+    display: flex;
+    padding:25px;
+    background-color: #FF0060; 
+}
+.imgagu{
+    border-radius:50%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #FF0060;
+    margin-top:30px;
+    }
+.contenedortexto{
+    text-align:justify;
+    color: #efe3ed;
+    animation: aparicion1 5s forwards;
+}
+@keyframes aparicion1 {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0); 
+    }
+  }
+.cardtext1{
+    list-style-type: disc; 
+    list-style-position: inside;
+}
+.cards{
+    padding:20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: space-around;
+}
+.card{
+    width:30%;
+    background-color: #f7e8f4;
+}
+.card-title{
+    color: #FF0060;
+}
+.btn{
+    border:2px solid #FF0060;
+    background-color:#FF0060;
+    color: #efe3ed;
+}
+.btn:hover{
+    border:2px solid #b80248;
+    background-color: #b80248;
+    color:#efe3ed
+}
+
+.ig{
+    width:40px;
+    display:block;
+    margin:auto;
+}
+/*CLASES DE APOYO*/
+.clasesdeapoyo{
+    padding:20px;
+    margin:10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap:55px;
+}
+
+.clase3{
+    padding:10px;
+    margin:5px; 
+    display: flex;
+    justify-content:flex-start;
+}
+/*EXAMENES*/
+.examenes{
+    background-image:url(../multimedia/examen.jpg);
+    background-size: cover;
+    padding:20px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.examenes2{
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    text-align: justify;
+    padding:15px;
+    background-color:#f7e8f4;
+    border-radius:10px;
+    width:60%;
+    border:2px solid #FF0060;
+}
+.h2{
+    font-size:20px;
+}
+/*TRABAJOS PRACTICOS*/
+.trabajospracticos{
+    background-image:url(../multimedia/tp.jpg);
+    background-size: cover;
+    padding:20px;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.tp{
+    padding:20px;
+    margin:10px;
+    display: flex;
+    flex-direction:row;
+    gap:10px;
+}
+.tp2{
+    width:50%;
+    text-align: justify;
+    padding:15px;
+    background-color:#f7e8f4;
+    border-radius:10px;
+    width:60%;
+    border:2px solid #FF0060;
+    transition:1s;
+}
+.tp2:hover{
+    background-color:#ffffff;
+    border:2px solid #48031e;
+}
+/*PRESENTACIONES*/
+.cardspresentacion{
+    display: flex;
+    gap:100px;
+    margin:10px;
+    justify-content: space-evenly;
+
+}
+.presentacion{
+    padding:20px;
+    text-align: justify;
+}
+
+/*REDACCION*/
+.redaccion{
+    padding:20px;
+    margin:0;
+    background-color: #FF0060;
+    color: #ffffff;
+}
+
+    
+
+/*DISEÑO*/
+.diseño{
+    padding:20px;
+    margin:10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap:50px;
+}
