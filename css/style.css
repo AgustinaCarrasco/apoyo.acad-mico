@@ -308,4 +308,32 @@ footer{
     .btn{
         font-size:18px;
     }
+    .clasesdeapoyo{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        gap:10px;
+    }
+    .h2{
+        font-size:18px;
+    }
+    .examenes2{
+        font-size:16px;
+    }
+    .tp{
+        padding:20px;
+        margin:10px;
+        display: flex;
+        flex-direction:column;
+        gap:10px;
+    }
+    .tp2{
+        text-align: justify;
+        padding:10px;
+        background-color:#f7e8f4;
+        border-radius:10px;
+        width:60%;
+        border:2px solid #FF0060;
+        transition:1s;
+    }
 }
