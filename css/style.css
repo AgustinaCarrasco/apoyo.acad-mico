@@ -226,3 +226,67 @@ footer{
     justify-content: space-evenly;
     gap:50px;
 }
+/*mediaqueries*/
+/*index*/
+@media(max-width:576px){
+    .h1{
+        font-size:18px;  
+    }
+    .h3{
+        font-size:16px;
+    }
+    footer{
+        font-size:16px;
+    }
+    .bannertexto{
+        font-size:20px;
+      }
+      .Agustina{
+        display: flex;
+        padding:10px;
+        background-color: #FF0060; 
+    }
+    .imgagu{
+        border-radius:50%;
+        width: 150px;
+        height: 150px;
+        border: 1px solid #FF0060;
+        margin-top:30px;
+        }
+    .contenedortexto{
+        text-align:justify;
+        color: #efe3ed;
+        font-size:16px;
+        animation: aparicion1 3s forwards;
+    }
+    @keyframes aparicion1 {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(0); 
+        }
+      }
+    .cardtext1{
+        list-style-type: disc; 
+        list-style-position: inside;
+    }
+    .cards{
+        padding:5px;
+        display: flex;
+        gap:5px;
+    }
+    .card{
+        width:50%;
+        background-color: #f7e8f4;
+    }
+    .card-title{
+        font-size:20px;
+    }
+    .card-text{
+        font-size:16px;
+    }
+    .btn{
+        font-size:18px;
+    }
+}
