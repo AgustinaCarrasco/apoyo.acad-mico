@@ -226,6 +226,11 @@ footer{
     justify-content: space-evenly;
     gap:50px;
 }
+.formRegistro{
+    padding:20px;
+    margin:10px;
+    width:50%;
+}
 /*mediaqueries*/
 /*index*/
 @media(max-width:576px){
