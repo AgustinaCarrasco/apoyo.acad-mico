@@ -69,7 +69,7 @@ footer{
 .Agustina{
     display: flex;
     padding:25px;
-    background-color: #FF0060; 
+    background-color: #ebd7de; 
 }
 .imgagu{
     border-radius:50%;
@@ -80,7 +80,7 @@ footer{
     }
 .contenedortexto{
     text-align:justify;
-    color: #efe3ed;
+    color: #000000;
     animation: aparicion1 5s forwards;
 }
 @keyframes aparicion1 {
