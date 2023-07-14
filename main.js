@@ -1,29 +1,12 @@
-// Obtener elementos del formulario
-let form = document.getElementById("registro-form");
-let nombreInput = document.getElementById("nombre");
-let emailInput = document.getElementById("email");
-let contraseñaInput = document.getElementById("contraseña");
+/*registro de usuario simulador interactivo*/
+let nombre = prompt("ingresa tu nombre")
+let apellido = prompt("ingresa tu apellido")
+let email = prompt("ingresa tu email")
+let contraseña = prompt("ingresa tu contraseña")
+let celular =  parseInt(prompt("ingresa tu numero de celular"))
 
-// Evento de envío del formulario
-form.addEventListener("submit", function(event) {
-  event.preventDefault(); // Evitar el envío del formulario
-
-  // Obtener valores de los campos
-  let nombre = nombreInput.value;
-  let email = emailInput.value;
-  let contraseña = contraseñaInput.value;
-
-  // Realizar validación de datos
-  if (nombre === "" || email === "" || contraseña === "") {
-    alert("Por favor, complete todos los campos.");
-    return;
+if (celular != celular) {
+    prompt('Debes ingresar un valor numérico.');
+  } else {
+   prompt('Número de celular ingresado correctamente:' + celular);
   }
-
-  // procesamiento adicional. enviar datos a un servidor o almacenarlos en una base de datos.
-
-  // Mostrar mensaje de registro exitoso
-  alert("¡Registro exitoso!");
-
-  // Restablecer los campos del formulario
-  form.reset();
-});
