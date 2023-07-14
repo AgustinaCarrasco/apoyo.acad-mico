@@ -69,7 +69,7 @@ footer{
 .Agustina{
     display: flex;
     padding:25px;
-    background-color: #ebd7de; 
+    background-color: #f7e8f4; 
 }
 .imgagu{
     border-radius:50%;
@@ -267,7 +267,7 @@ footer{
       .Agustina{
         display: flex;
         padding:10px;
-        background-color: #FF0060; 
+        background-color: #f7e8f4; 
     }
     .imgagu{
         border-radius:50%;
@@ -278,7 +278,7 @@ footer{
         }
     .contenedortexto{
         text-align:justify;
-        color: #efe3ed;
+        color: #000000;
         font-size:14px;
         animation: aparicion1 3s forwards;
     }
@@ -296,16 +296,19 @@ footer{
     }
     .cards{
         padding:5px;
-        display: flex;
         gap:5px;
-        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap
     }
     .card{
-        width:50%;
+        width:40%;
         background-color: #f7e8f4;
     }
+    .card-header{
+        font-size:18px;
+    }
     .card-title{
-        font-size:20px;
+        font-size:18px;
     }
     .card-text{
         font-size:14px;
